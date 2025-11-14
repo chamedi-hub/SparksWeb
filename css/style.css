@@ -208,7 +208,7 @@
 	#specs .tooltipWrapper { position: relative; }
 	#specs .tooltipWrapper.imageCircle { position: absolute; left: 0; width: 100%; top: 0; }
 	#specs .circleBottom .tooltipWrapper.imageCircle { top: auto; bottom: 0; }
-	#specs .circleMiddle .tooltipWrapper.imageCircle { top: 35%; bottom: auto; height: 30%; }
+	#specs .circleMiddle .tooltipWrapper.imageCircle { top: 35%; bottom: auto; /*height: 30%;*/ }
 	#specs .tooltipWrapper img { position: relative; z-index: 1; }
 	#specs .tooltipWrapper span { width: 18px; height: 18px; background: #fff; left: calc(50% - 9px); opacity: 1; border: 4px solid #70707033; border-radius: 100px; top: calc(50% - 9px); position: absolute; z-index: 99; transition: all 0.5s ease-out 0s; box-shadow: 0 0 0 3px rgba(225,225,225,.32); }
 	#specs .circleMiddle .tooltipWrapper:first-child span:first-child { top: calc(25% - 9px); }
